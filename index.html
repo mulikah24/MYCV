@@ -4,17 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mulikah Aldubayyan</title>
+  
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <!--Tailwind CSS-->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     html {
       scroll-behavior: smooth;
     }
+    body{ 
+    font-family: 'Roboto', sans-serif;
+    }
   </style>
 </head>
-<body class="bg-zinc-400 text-gray-800 font-sans">
+<body class="bg-zinc-400 text-gray-800">
 
   <!-- Top Navigation -->
-  <nav class="text-zinc-700 p-4 flex rounded-t-xl shadow-lg justify-center space-x-4 bg-gradient-to-r from-stone-300 via-zinc-200 to-slate-200">
+  <nav class="text-zinc-700 p-4 flex rounded-t-xl shadow-lg justify-center space-x-2 sm:space-x-4 overflow-x-auto whitespace-nowrap bg-gradient-to-r from-stone-300 via-zinc-200 to-slate-200">    
     <a href="#about" class="px-3 py-1 hover:text-slate-500 font-semibold">About</a>
     <a href="#skills" class="px-3 py-1 hover:text-slate-500 font-semibold">Skills</a>
     <a href="#projects" class="px-3 py-1 hover:text-slate-500 font-semibold">Projects</a>
@@ -22,14 +32,14 @@
     <a href="#contact" class="px-3 py-1 hover:text-slate-500 font-semibold">Contact</a>
   </nav>
 
-  <!-- Header -->
-  <header class="text-center p-24 md:p-40 rounded-b-xl shadow-lg bg-gradient-to-l from-stone-300 via-zinc-200 to-slate-200">
+  <!-- Header Section -->
+  <header class="text-center p-8 sm:p-16 md:p-24 lg:p-40 rounded-b-xl shadow-lg bg-gradient-to-l from-stone-300 via-zinc-200 to-slate-200">
     <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800">Mulikah Aldubayyan</h1>
-    <p class="text-xl sm:text-2xl text-gray-600 mt-7">Computer Science &nbsp;| &nbsp;&nbsp;Web developer</p>
+    <p class="text-lg sm:text-2xl text-gray-600 mt-7">Computer Science &nbsp;| &nbsp;&nbsp;Web developer</p>
   </header>
 
-  <!-- About -->
-  <section id="about" class="mt-20 max-w-3xl mx-auto bg-slate-50 shadow-lg p-8 md:p-10 rounded-tl-xl">
+  <!-- About Me Section -->
+  <section id="about" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-6 sm:p-10 px-6 sm:px-12 rounded-tl-xl">
     <h2 class="text-2xl sm:text-3xl font-semibold border-b pb-2 mb-4 text-gray-800">About Me</h2>
     <p class="text-lg text-gray-800 leading-relaxed">
       I’m a Computer Science undergraduate student at Qassim University.
@@ -39,8 +49,8 @@
     </p>
   </section>
 
-  <!-- Skills -->
-  <section id="skills" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-8 md:p-10 rounded-tl-xl">
+  <!-- Skills Section -->
+  <section id="skills" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-6 sm:p-10 px-6 sm:px-12 rounded-tl-xl">
     <h2 class="text-2xl sm:text-3xl font-semibold border-b pb-2 mb-4 text-gray-800">Skills</h2>
     <ul class="text-lg list-disc pl-5 text-gray-800 space-y-2">
       <li>Java, C, Python </li>
@@ -49,8 +59,8 @@
     </ul>
   </section>
 
-  <!-- Projects -->
-  <section id="projects" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-8 md:p-10 rounded-tl-xl">
+  <!-- Projects Section -->
+  <section id="projects" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-6 sm:p-10 px-6 sm:px-12 rounded-tl-xl">
     <h2 class="text-2xl sm:text-3xl font-semibold border-b pb-2 mb-4 text-gray-800">Projects</h2>
     <ul class="text-lg list-disc pl-5 text-gray-800 space-y-4">
       <li>
@@ -65,14 +75,14 @@
     </ul>
   </section>
 
-  <!-- Education -->
-  <section id="education" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-8 md:p-10 rounded-tl-xl">
+  <!-- Education Section -->
+  <section id="education" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-6 sm:p-10 px-6 sm:px-12 rounded-tl-xl">
     <h2 class="text-2xl sm:text-3xl font-semibold border-b pb-2 mb-4 text-gray-800">Education</h2>
     <p class="text-lg text-gray-800">[Qassim University] – Computer Science</p>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="mt-12 max-w-3xl mx-auto bg-slate-50 shadow-lg p-8 md:p-10 rounded-tl-xl mb-10">
+  <!-- Contact Section -->
+  <section id="contact" class="mt-12 mb-10 max-w-3xl mx-auto bg-slate-50 shadow-lg p-6 sm:p-10 px-6 sm:px-12 rounded-tl-xl">
     <h2 class="text-2xl sm:text-3xl font-semibold border-b pb-2 mb-4 text-gray-800">Contact</h2>
     <ul class="text-lg list-disc pl-5 text-gray-800 space-y-2">
       <li>Email: mulikah2003@gmail.com</li>
@@ -80,7 +90,7 @@
     </ul>
   </section>
 
-  <!-- Footer -->
+  <!-- Footer Section -->
   <footer class="text-gray-500 text-center py-10 rounded-xl shadow-lg bg-gradient-to-l from-stone-300 via-zinc-200 to-slate-200">
     &copy; 2025 All rights reserved
   </footer>
